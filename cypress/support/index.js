@@ -1,22 +1,18 @@
 // ***********************************************************
-// This example support/index.js is processed and
+// This support/index.js is processed and
 // loaded automatically before your test files.
 //
-// This is a great place to put global configuration and
+// This is a place to put global configuration and
 // behavior that modifies Cypress.
 //
-// You can change the location of this file or turn off
-// automatically serving support files with the
-// 'supportFile' configuration option.
-//
-// You can read more here:
-// https://on.cypress.io/configuration
+// Author: Tony Nguyen
+// Issue date: Sat 21 May, 2022
 // ***********************************************************
 
-// Import commands.js using ES2015 syntax:
+// import
 import './commands';
-require('cypress-xpath');
-Cypress.config('defaultCommandTimeout', 10000);
 
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
+//require
+require('cypress-xpath');
+// config the timeout is 15000 milisecond
+Cypress.config('defaultCommandTimeout', 15000);
