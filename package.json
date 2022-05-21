@@ -1,0 +1,23 @@
+{
+  "name": "tony-guardrailsio-qa-automation-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonynguyennvt/tony-guardrailsio-qa-automation-challenge.git"
+  },
+  "author": "Tony Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonynguyennvt/tony-guardrailsio-qa-automation-challenge/issues"
+  },
+  "homepage": "https://github.com/tonynguyennvt/tony-guardrailsio-qa-automation-challenge#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-xpath": "^1.6.2"
+  }
+}
